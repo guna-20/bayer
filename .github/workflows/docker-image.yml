@@ -1,0 +1,61 @@
+name: ci-cd-ec2
+
+on:
+  push:
+    branches: [ "main" ]
+
+env:
+  AWS_REGION: us-east-1
+  ECR_REPO: myapp
+  IMAGE_TAG: latest
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    outputs:
+      ecr_uri: ${{ steps.out.outputs.ecr_uri }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Login to ECR
+        id: login
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build & push image
+        id: out
+        run: |
+          ACCOUNT_ID="$(aws sts get-caller-identity --query Account --output text)"
+          ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
+          echo "ecr_uri=$ECR_URI" >> "$GITHUB_OUTPUT"
+          docker build -t "${ECR_URI}:${IMAGE_TAG}" .
+          docker push "${ECR_URI}:${IMAGE_TAG}"
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build_and_push
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - name: Configure AWS (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deploy on EC2 via SSM
+        run: |
+          aws ssm send-command \
+            --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
+            --document-name "AWS-RunShellScript" \
+            --comment "Deploy docker image" \
+            --parameters commands="AWS_REGION=${AWS_REGION} ECR_URI=${{ needs.build_and_push.outputs.ecr_uri }} IMAGE_TAG=${IMAGE_TAG} CONTAINER_NAME=myapp PORT=8000 sudo -E /opt/app/deploy.sh"
