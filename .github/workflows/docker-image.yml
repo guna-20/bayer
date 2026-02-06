@@ -47,13 +47,12 @@ jobs:
       id-token: write
       contents: read
     steps:
-      - name: Configure AWS (OIDC)
+
       - uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: AKIAU3OGXJCO2DLUQMPW
           aws-secret-access-key: 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
           aws-region: us-east-1
-
 
       - name: Deploy on EC2 via SSM
         run: |
