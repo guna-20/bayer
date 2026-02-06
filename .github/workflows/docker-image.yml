@@ -34,7 +34,7 @@ jobs:
       - name: Build & push image
         id: out
         run: |
-          ACCOUNT_ID="$(aws sts g et-caller-identity --query Account --output text)"
+          ACCOUNT_ID="$(aws sts get-caller-identity --query Account --output text)"
           ECR_URI="${ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
           echo "ecr_uri=$ECR_URI" >> "$GITHUB_OUTPUT"
           docker build -t "${ECR_URI}:${IMAGE_TAG}" .
