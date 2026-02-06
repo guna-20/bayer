@@ -1,0 +1,321 @@
+2026-02-06 11:31:21,639 - INFO - === Starting Application Monitoring ===
+2026-02-06 11:31:21,639 - INFO - Database connection established.
+2026-02-06 11:31:21,639 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:21,850 - INFO - API END - Endpoint: /login - Latency: 210.00ms
+2026-02-06 11:31:21,850 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:21,929 - INFO - API END - Endpoint: /get-data - Latency: 78.00ms
+2026-02-06 11:31:21,929 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:22,362 - INFO - API END - Endpoint: /update - Latency: 432.00ms
+2026-02-06 11:31:22,362 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:22,454 - INFO - API END - Endpoint: /delete - Latency: 91.00ms
+2026-02-06 11:31:22,956 - INFO - System Metrics | CPU: 9.2%, Memory: 76.5%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:32,966 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:33,255 - ERROR - API FAILURE - Endpoint: /login - Latency: 287.00ms
+2026-02-06 11:31:33,255 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:33,624 - INFO - API END - Endpoint: /get-data - Latency: 366.00ms
+2026-02-06 11:31:33,624 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:33,676 - INFO - API END - Endpoint: /update - Latency: 51.00ms
+2026-02-06 11:31:33,676 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:33,872 - INFO - API END - Endpoint: /delete - Latency: 195.00ms
+2026-02-06 11:31:34,376 - INFO - System Metrics | CPU: 16.9%, Memory: 76.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:35,881 - INFO - === Stopped Application Monitoring ===
+2026-02-06 11:31:35,887 - INFO - Database connection closed.
+2026-02-06 11:31:36,722 - INFO - === Starting Application Monitoring ===
+2026-02-06 11:31:36,722 - INFO - Database connection established.
+2026-02-06 11:31:36,723 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:36,820 - INFO - API END - Endpoint: /login - Latency: 97.00ms
+2026-02-06 11:31:36,820 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:37,249 - INFO - API END - Endpoint: /get-data - Latency: 428.00ms
+2026-02-06 11:31:37,249 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:37,734 - ERROR - API FAILURE - Endpoint: /update - Latency: 484.00ms
+2026-02-06 11:31:37,734 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:38,109 - INFO - API END - Endpoint: /delete - Latency: 374.00ms
+2026-02-06 11:31:38,611 - INFO - System Metrics | CPU: 12.6%, Memory: 76.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:39,616 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:40,034 - ERROR - API FAILURE - Endpoint: /login - Latency: 416.00ms
+2026-02-06 11:31:40,035 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:40,353 - INFO - API END - Endpoint: /get-data - Latency: 316.00ms
+2026-02-06 11:31:40,353 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:40,543 - INFO - API END - Endpoint: /update - Latency: 189.00ms
+2026-02-06 11:31:40,543 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:40,920 - INFO - API END - Endpoint: /delete - Latency: 375.00ms
+2026-02-06 11:31:41,425 - INFO - System Metrics | CPU: 7.5%, Memory: 76.4%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:42,430 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:42,768 - INFO - API END - Endpoint: /login - Latency: 336.00ms
+2026-02-06 11:31:42,768 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:43,247 - INFO - API END - Endpoint: /get-data - Latency: 476.00ms
+2026-02-06 11:31:43,247 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:43,339 - INFO - API END - Endpoint: /update - Latency: 91.00ms
+2026-02-06 11:31:43,340 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:43,829 - INFO - API END - Endpoint: /delete - Latency: 487.00ms
+2026-02-06 11:31:44,333 - INFO - System Metrics | CPU: 9.0%, Memory: 76.2%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:45,338 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:45,558 - INFO - API END - Endpoint: /login - Latency: 219.00ms
+2026-02-06 11:31:45,558 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:45,948 - ERROR - API FAILURE - Endpoint: /get-data - Latency: 387.00ms
+2026-02-06 11:31:45,948 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:46,057 - INFO - API END - Endpoint: /update - Latency: 108.00ms
+2026-02-06 11:31:46,057 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:46,288 - INFO - API END - Endpoint: /delete - Latency: 230.00ms
+2026-02-06 11:31:46,790 - INFO - System Metrics | CPU: 2.2%, Memory: 76.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:47,796 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:48,055 - INFO - API END - Endpoint: /login - Latency: 258.00ms
+2026-02-06 11:31:48,056 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:48,247 - ERROR - API FAILURE - Endpoint: /get-data - Latency: 190.00ms
+2026-02-06 11:31:48,247 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:48,477 - INFO - API END - Endpoint: /update - Latency: 228.00ms
+2026-02-06 11:31:48,477 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:48,694 - INFO - API END - Endpoint: /delete - Latency: 215.00ms
+2026-02-06 11:31:49,197 - INFO - System Metrics | CPU: 4.4%, Memory: 76.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:50,203 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:50,427 - INFO - API END - Endpoint: /login - Latency: 223.00ms
+2026-02-06 11:31:50,428 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:50,579 - INFO - API END - Endpoint: /get-data - Latency: 151.00ms
+2026-02-06 11:31:50,579 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:50,752 - INFO - API END - Endpoint: /update - Latency: 172.00ms
+2026-02-06 11:31:50,753 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:51,134 - INFO - API END - Endpoint: /delete - Latency: 379.00ms
+2026-02-06 11:31:51,638 - INFO - System Metrics | CPU: 6.8%, Memory: 76.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:52,641 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:52,730 - INFO - API END - Endpoint: /login - Latency: 88.00ms
+2026-02-06 11:31:52,730 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:53,050 - INFO - API END - Endpoint: /get-data - Latency: 319.00ms
+2026-02-06 11:31:53,050 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:53,278 - ERROR - API FAILURE - Endpoint: /update - Latency: 226.00ms
+2026-02-06 11:31:53,278 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:53,503 - INFO - API END - Endpoint: /delete - Latency: 224.00ms
+2026-02-06 11:31:54,007 - INFO - System Metrics | CPU: 7.7%, Memory: 77.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:55,008 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:55,309 - INFO - API END - Endpoint: /login - Latency: 299.00ms
+2026-02-06 11:31:55,309 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:55,639 - INFO - API END - Endpoint: /get-data - Latency: 328.00ms
+2026-02-06 11:31:55,639 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:55,983 - INFO - API END - Endpoint: /update - Latency: 342.00ms
+2026-02-06 11:31:55,983 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:56,390 - INFO - API END - Endpoint: /delete - Latency: 405.00ms
+2026-02-06 11:31:56,894 - INFO - System Metrics | CPU: 6.2%, Memory: 77.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:31:57,899 - INFO - API START - Endpoint: /login
+2026-02-06 11:31:58,018 - INFO - API END - Endpoint: /login - Latency: 117.00ms
+2026-02-06 11:31:58,018 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:31:58,385 - INFO - API END - Endpoint: /get-data - Latency: 365.00ms
+2026-02-06 11:31:58,385 - INFO - API START - Endpoint: /update
+2026-02-06 11:31:58,536 - INFO - API END - Endpoint: /update - Latency: 150.00ms
+2026-02-06 11:31:58,536 - INFO - API START - Endpoint: /delete
+2026-02-06 11:31:58,965 - INFO - API END - Endpoint: /delete - Latency: 426.00ms
+2026-02-06 11:31:59,469 - INFO - System Metrics | CPU: 3.4%, Memory: 77.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:00,475 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:00,673 - INFO - API END - Endpoint: /login - Latency: 197.00ms
+2026-02-06 11:32:00,673 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:00,810 - INFO - API END - Endpoint: /get-data - Latency: 136.00ms
+2026-02-06 11:32:00,810 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:00,918 - INFO - API END - Endpoint: /update - Latency: 107.00ms
+2026-02-06 11:32:00,919 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:01,418 - INFO - API END - Endpoint: /delete - Latency: 496.00ms
+2026-02-06 11:32:01,922 - INFO - System Metrics | CPU: 4.7%, Memory: 77.1%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:02,928 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:03,366 - INFO - API END - Endpoint: /login - Latency: 435.00ms
+2026-02-06 11:32:03,366 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:03,660 - INFO - API END - Endpoint: /get-data - Latency: 292.00ms
+2026-02-06 11:32:03,660 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:03,846 - INFO - API END - Endpoint: /update - Latency: 184.00ms
+2026-02-06 11:32:03,846 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:03,964 - INFO - API END - Endpoint: /delete - Latency: 117.00ms
+2026-02-06 11:32:04,468 - INFO - System Metrics | CPU: 2.2%, Memory: 77.2%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:05,473 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:05,605 - ERROR - API FAILURE - Endpoint: /login - Latency: 130.00ms
+2026-02-06 11:32:05,605 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:05,972 - INFO - API END - Endpoint: /get-data - Latency: 366.00ms
+2026-02-06 11:32:05,973 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:06,047 - INFO - API END - Endpoint: /update - Latency: 74.00ms
+2026-02-06 11:32:06,047 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:06,549 - INFO - API END - Endpoint: /delete - Latency: 499.00ms
+2026-02-06 11:32:07,053 - INFO - System Metrics | CPU: 4.5%, Memory: 77.2%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:08,058 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:08,224 - INFO - API END - Endpoint: /login - Latency: 165.00ms
+2026-02-06 11:32:08,224 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:08,402 - INFO - API END - Endpoint: /get-data - Latency: 177.00ms
+2026-02-06 11:32:08,403 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:08,841 - INFO - API END - Endpoint: /update - Latency: 436.00ms
+2026-02-06 11:32:08,841 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:09,271 - INFO - API END - Endpoint: /delete - Latency: 428.00ms
+2026-02-06 11:32:09,775 - INFO - System Metrics | CPU: 17.6%, Memory: 77.2%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:10,780 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:11,092 - INFO - API END - Endpoint: /login - Latency: 309.00ms
+2026-02-06 11:32:11,092 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:11,299 - INFO - API END - Endpoint: /get-data - Latency: 205.00ms
+2026-02-06 11:32:11,299 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:11,500 - INFO - API END - Endpoint: /update - Latency: 199.00ms
+2026-02-06 11:32:11,500 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:11,564 - INFO - API END - Endpoint: /delete - Latency: 63.00ms
+2026-02-06 11:32:12,069 - INFO - System Metrics | CPU: 1.8%, Memory: 77.4%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:13,074 - INFO - API START - Endpoint: /login
+2026-02-06 11:32:13,532 - ERROR - API FAILURE - Endpoint: /login - Latency: 455.00ms
+2026-02-06 11:32:13,533 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:32:13,631 - INFO - API END - Endpoint: /get-data - Latency: 97.00ms
+2026-02-06 11:32:13,631 - INFO - API START - Endpoint: /update
+2026-02-06 11:32:14,130 - INFO - API END - Endpoint: /update - Latency: 496.00ms
+2026-02-06 11:32:14,131 - INFO - API START - Endpoint: /delete
+2026-02-06 11:32:14,508 - INFO - API END - Endpoint: /delete - Latency: 375.00ms
+2026-02-06 11:32:15,012 - INFO - System Metrics | CPU: 3.2%, Memory: 76.9%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:32:15,996 - INFO - === Stopped Application Monitoring ===
+2026-02-06 11:32:15,996 - INFO - Database connection closed.
+2026-02-06 11:33:49,180 - INFO - === Starting Application Monitoring ===
+2026-02-06 11:33:49,180 - INFO - Database connection established.
+2026-02-06 11:33:49,180 - INFO - API START - Endpoint: /login
+2026-02-06 11:33:49,470 - INFO - API END - Endpoint: /login - Latency: 289.00ms
+2026-02-06 11:33:49,470 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:33:49,781 - INFO - API END - Endpoint: /get-data - Latency: 310.00ms
+2026-02-06 11:33:49,781 - INFO - API START - Endpoint: /update
+2026-02-06 11:33:50,170 - INFO - API END - Endpoint: /update - Latency: 388.00ms
+2026-02-06 11:33:50,170 - INFO - API START - Endpoint: /delete
+2026-02-06 11:33:50,265 - INFO - API END - Endpoint: /delete - Latency: 94.00ms
+2026-02-06 11:33:50,579 - INFO - === Stopped Application Monitoring ===
+2026-02-06 11:33:50,579 - INFO - Database connection closed.
+2026-02-06 11:33:57,679 - INFO - === Starting Application Monitoring ===
+2026-02-06 11:33:57,679 - INFO - Database connection established.
+2026-02-06 11:33:57,679 - INFO - API START - Endpoint: /login
+2026-02-06 11:33:57,921 - INFO - API END - Endpoint: /login - Latency: 241.00ms
+2026-02-06 11:33:57,921 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:33:58,279 - INFO - API END - Endpoint: /get-data - Latency: 357.00ms
+2026-02-06 11:33:58,279 - INFO - API START - Endpoint: /update
+2026-02-06 11:33:58,733 - INFO - API END - Endpoint: /update - Latency: 453.00ms
+2026-02-06 11:33:58,734 - INFO - API START - Endpoint: /delete
+2026-02-06 11:33:59,198 - INFO - API END - Endpoint: /delete - Latency: 458.00ms
+2026-02-06 11:33:59,699 - INFO - System Metrics | CPU: 9.1%, Memory: 74.8%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:00,705 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:01,184 - INFO - API END - Endpoint: /login - Latency: 476.00ms
+2026-02-06 11:34:01,185 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:01,336 - ERROR - API FAILURE - Endpoint: /get-data - Latency: 151.00ms
+2026-02-06 11:34:01,336 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:01,488 - ERROR - API FAILURE - Endpoint: /update - Latency: 151.00ms
+2026-02-06 11:34:01,488 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:01,642 - ERROR - API FAILURE - Endpoint: /delete - Latency: 152.00ms
+2026-02-06 11:34:02,146 - INFO - System Metrics | CPU: 2.7%, Memory: 74.8%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:03,151 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:03,649 - INFO - API END - Endpoint: /login - Latency: 497.00ms
+2026-02-06 11:34:03,650 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:03,714 - INFO - API END - Endpoint: /get-data - Latency: 64.00ms
+2026-02-06 11:34:03,715 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:04,195 - INFO - API END - Endpoint: /update - Latency: 477.00ms
+2026-02-06 11:34:04,195 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:04,435 - INFO - API END - Endpoint: /delete - Latency: 238.00ms
+2026-02-06 11:34:04,939 - INFO - System Metrics | CPU: 3.2%, Memory: 74.7%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:05,945 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:06,186 - INFO - API END - Endpoint: /login - Latency: 239.00ms
+2026-02-06 11:34:06,186 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:06,675 - INFO - API END - Endpoint: /get-data - Latency: 486.00ms
+2026-02-06 11:34:06,676 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:06,798 - INFO - API END - Endpoint: /update - Latency: 122.00ms
+2026-02-06 11:34:06,798 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:06,922 - INFO - API END - Endpoint: /delete - Latency: 122.00ms
+2026-02-06 11:34:07,426 - INFO - System Metrics | CPU: 2.3%, Memory: 74.7%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:08,432 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:08,551 - INFO - API END - Endpoint: /login - Latency: 118.00ms
+2026-02-06 11:34:08,551 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:08,995 - INFO - API END - Endpoint: /get-data - Latency: 441.00ms
+2026-02-06 11:34:08,995 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:09,084 - INFO - API END - Endpoint: /update - Latency: 88.00ms
+2026-02-06 11:34:09,085 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:09,459 - INFO - API END - Endpoint: /delete - Latency: 372.00ms
+2026-02-06 11:34:09,964 - INFO - System Metrics | CPU: 2.0%, Memory: 74.7%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:10,969 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:11,041 - INFO - API END - Endpoint: /login - Latency: 71.00ms
+2026-02-06 11:34:11,042 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:11,325 - INFO - API END - Endpoint: /get-data - Latency: 281.00ms
+2026-02-06 11:34:11,325 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:11,640 - INFO - API END - Endpoint: /update - Latency: 314.00ms
+2026-02-06 11:34:11,640 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:11,724 - INFO - API END - Endpoint: /delete - Latency: 83.00ms
+2026-02-06 11:34:12,228 - INFO - System Metrics | CPU: 2.3%, Memory: 74.7%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:13,234 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:13,295 - INFO - API END - Endpoint: /login - Latency: 60.00ms
+2026-02-06 11:34:13,295 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:13,743 - INFO - API END - Endpoint: /get-data - Latency: 445.00ms
+2026-02-06 11:34:13,744 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:13,812 - INFO - API END - Endpoint: /update - Latency: 67.00ms
+2026-02-06 11:34:13,812 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:14,306 - INFO - API END - Endpoint: /delete - Latency: 491.00ms
+2026-02-06 11:34:14,810 - INFO - System Metrics | CPU: 2.0%, Memory: 74.7%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:15,816 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:15,993 - ERROR - API FAILURE - Endpoint: /login - Latency: 176.00ms
+2026-02-06 11:34:15,994 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:16,371 - INFO - API END - Endpoint: /get-data - Latency: 369.00ms
+2026-02-06 11:34:16,371 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:16,696 - ERROR - API FAILURE - Endpoint: /update - Latency: 323.00ms
+2026-02-06 11:34:16,697 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:16,907 - INFO - API END - Endpoint: /delete - Latency: 209.00ms
+2026-02-06 11:34:17,412 - INFO - System Metrics | CPU: 1.3%, Memory: 74.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:18,418 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:18,627 - INFO - API END - Endpoint: /login - Latency: 208.00ms
+2026-02-06 11:34:18,627 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:19,100 - INFO - API END - Endpoint: /get-data - Latency: 470.00ms
+2026-02-06 11:34:19,101 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:19,343 - ERROR - API FAILURE - Endpoint: /update - Latency: 241.00ms
+2026-02-06 11:34:19,344 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:19,539 - INFO - API END - Endpoint: /delete - Latency: 194.00ms
+2026-02-06 11:34:20,044 - INFO - System Metrics | CPU: 1.8%, Memory: 74.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:21,050 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:21,519 - INFO - API END - Endpoint: /login - Latency: 466.00ms
+2026-02-06 11:34:21,519 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:22,006 - INFO - API END - Endpoint: /get-data - Latency: 484.00ms
+2026-02-06 11:34:22,007 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:22,179 - INFO - API END - Endpoint: /update - Latency: 171.00ms
+2026-02-06 11:34:22,179 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:22,648 - INFO - API END - Endpoint: /delete - Latency: 466.00ms
+2026-02-06 11:34:23,152 - INFO - System Metrics | CPU: 1.8%, Memory: 74.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:24,153 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:24,209 - ERROR - API FAILURE - Endpoint: /login - Latency: 55.00ms
+2026-02-06 11:34:24,209 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:24,568 - INFO - API END - Endpoint: /get-data - Latency: 356.00ms
+2026-02-06 11:34:24,568 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:25,019 - INFO - API END - Endpoint: /update - Latency: 448.00ms
+2026-02-06 11:34:25,019 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:25,073 - INFO - API END - Endpoint: /delete - Latency: 53.00ms
+2026-02-06 11:34:25,577 - INFO - System Metrics | CPU: 2.3%, Memory: 74.0%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:26,582 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:27,068 - INFO - API END - Endpoint: /login - Latency: 483.00ms
+2026-02-06 11:34:27,068 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:27,411 - INFO - API END - Endpoint: /get-data - Latency: 341.00ms
+2026-02-06 11:34:27,411 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:27,491 - INFO - API END - Endpoint: /update - Latency: 79.00ms
+2026-02-06 11:34:27,491 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:27,933 - INFO - API END - Endpoint: /delete - Latency: 439.00ms
+2026-02-06 11:34:28,438 - INFO - System Metrics | CPU: 4.4%, Memory: 74.1%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:29,443 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:29,932 - INFO - API END - Endpoint: /login - Latency: 485.00ms
+2026-02-06 11:34:29,932 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:29,996 - INFO - API END - Endpoint: /get-data - Latency: 63.00ms
+2026-02-06 11:34:29,996 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:30,440 - ERROR - API FAILURE - Endpoint: /update - Latency: 441.00ms
+2026-02-06 11:34:30,440 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:30,753 - ERROR - API FAILURE - Endpoint: /delete - Latency: 311.00ms
+2026-02-06 11:34:31,257 - INFO - System Metrics | CPU: 2.0%, Memory: 74.1%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:32,259 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:32,568 - INFO - API END - Endpoint: /login - Latency: 307.00ms
+2026-02-06 11:34:32,568 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:32,858 - ERROR - API FAILURE - Endpoint: /get-data - Latency: 289.00ms
+2026-02-06 11:34:32,858 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:33,001 - INFO - API END - Endpoint: /update - Latency: 142.00ms
+2026-02-06 11:34:33,002 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:33,290 - INFO - API END - Endpoint: /delete - Latency: 287.00ms
+2026-02-06 11:34:33,795 - INFO - System Metrics | CPU: 6.5%, Memory: 74.1%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:34,800 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:35,172 - ERROR - API FAILURE - Endpoint: /login - Latency: 370.00ms
+2026-02-06 11:34:35,173 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:35,505 - INFO - API END - Endpoint: /get-data - Latency: 330.00ms
+2026-02-06 11:34:35,506 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:35,787 - INFO - API END - Endpoint: /update - Latency: 280.00ms
+2026-02-06 11:34:35,787 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:36,035 - INFO - API END - Endpoint: /delete - Latency: 246.00ms
+2026-02-06 11:34:36,539 - INFO - System Metrics | CPU: 5.9%, Memory: 74.3%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:37,543 - INFO - API START - Endpoint: /login
+2026-02-06 11:34:37,798 - INFO - API END - Endpoint: /login - Latency: 253.00ms
+2026-02-06 11:34:37,799 - INFO - API START - Endpoint: /get-data
+2026-02-06 11:34:37,952 - INFO - API END - Endpoint: /get-data - Latency: 153.00ms
+2026-02-06 11:34:37,952 - INFO - API START - Endpoint: /update
+2026-02-06 11:34:38,062 - INFO - API END - Endpoint: /update - Latency: 109.00ms
+2026-02-06 11:34:38,063 - INFO - API START - Endpoint: /delete
+2026-02-06 11:34:38,408 - ERROR - API FAILURE - Endpoint: /delete - Latency: 344.00ms
+2026-02-06 11:34:38,911 - INFO - System Metrics | CPU: 7.4%, Memory: 74.4%, Disk: 58.6%, DB Connections: 1
+2026-02-06 11:34:39,906 - INFO - === Stopped Application Monitoring ===
+2026-02-06 11:34:39,907 - INFO - Database connection closed.
