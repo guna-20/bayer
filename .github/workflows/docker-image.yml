@@ -48,15 +48,17 @@ jobs:
       contents: read
     steps:
       - name: Configure AWS (OIDC)
-        uses: aws-actions/configure-aws-credentials@v4
+      - uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
-          aws-region: ${{ env.AWS_REGION }}
+          aws-access-key-id: AKIAU3OGXJCO2DLUQMPW
+          aws-secret-access-key: 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
+          aws-region: us-east-1
+
 
       - name: Deploy on EC2 via SSM
         run: |
           aws ssm send-command \
-            --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
+            --instance-ids i-067d09712af63e812 \
             --document-name "AWS-RunShellScript" \
             --comment "Deploy docker image" \
-            --parameters commands="AWS_REGION=${AWS_REGION} ECR_URI=${{ needs.build_and_push.outputs.ecr_uri }} IMAGE_TAG=${IMAGE_TAG} CONTAINER_NAME=myapp PORT=8000 sudo -E /opt/app/deploy.sh"
+            --parameters commands="AWS_REGION=us-east-1 ECR_URI=${{ needs.build_and_push.outputs.ecr_uri }} IMAGE_TAG=${IMAGE_TAG} CONTAINER_NAME=myapp PORT=8000 sudo -E /opt/app/deploy.sh"
